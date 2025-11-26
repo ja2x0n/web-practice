@@ -4,5 +4,6 @@
 
 ### 1. profile card
 
-![image](https://raw.githubusercontent.com/ja2x0n/web-practice/main/profile-card.png)
+![profile card](https://raw.githubusercontent.com/ja2x0n/web-practice/main/profile-card.png)
+
 
