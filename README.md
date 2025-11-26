@@ -4,4 +4,4 @@
 
 ### 1. profile card
 
-![profile card](https://github.com/ja2x0n/web-practice/blob/main/profile-card.png)
+![image](https://github.com/ja2x0n/web-practice/blob/main/profile-card.png)
