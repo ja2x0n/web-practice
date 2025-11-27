@@ -18,7 +18,7 @@
 + 반응형 폰트 크기(calc, vw 활용)
 
 ---
-Mini project
+## Mini project
 ### 1. profile card
 html과 css를 이용하여 만든 간단한 자기소개 프로필 카드 UI입니다.
 
