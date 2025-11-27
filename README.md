@@ -5,11 +5,17 @@
 지금까지 배운 것들
 
 HTML 기본 구조 (html, head, body)
+
 텍스트 태그 (h1~h6, p, em, strong)
+
 구조 태그 (header, article, footer, aside)
+
 이미지, 링크 태그 (img, a)
+
 CSS 선택자, 박스모델, 여백, 정렬(Flex, Grid)
+
 배경 이미지 cover/contain
+
 반응형 폰트 크기(calc, vw 활용)
 
 ---
