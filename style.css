@@ -1,9 +1,12 @@
+/* 배경색 회색, 간격 0 */
 .forecast {
     background-color: #eee;
     margin: 0;
     padding: 0;
 }
 
+/* 간격 0.5rem,0.3rem, 글자 크기 1.2rem */
+/* 1rem = 16px,실무에서 많이 씀 */
 .forecast > h1,
 .day-forecast {
     margin: 0.5rem;
@@ -11,11 +14,14 @@
     font-size: 1.2rem;
 }
 
+/* 이미지를 오른쪽에 비율 유지하면서 꽉 차게 배치, 콘텐츠 영역 기준으로 위치 잡음,
+배경 칠할 범위를 보더까지 포함,이미지 반복 안 함, 배경에 쓸 이미지 파일 경로,배경색 흰색 */
 .day-forecast {
     background: right/contain content-box border-box no-repeat
         url("/shared-assets/images/examples/rain.svg") white;
 }
 
+/* 간격 0.2rem(3.2px), 폰트 크기 1rem(16px) */
 .day-forecast > h2,
 .day-forecast > p {
     margin: 0.2rem;
@@ -67,4 +73,29 @@ header > h1 {
 
 header > time {
     font: italic 0.7rem sans-serif;
+}
+
+.main-header {
+    font: bold 7vw Arial, sans-serif;
+}
+
+.crumbs ol {
+    list-style-type: none;
+    padding-left: 0;
+}
+.crumb {
+    display: inline-block;
+}
+.crumb a::after {
+    display: inline-block;
+    color: #000;
+    content: ">";
+    font-size: 80%;
+    font-weight: bold;
+    padding: 0 3px;
+}
+
+h1,
+h2 {
+    margin: 0;
 }
