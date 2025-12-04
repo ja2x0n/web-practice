@@ -1,0 +1,60 @@
+/* 화면 가운데 정렬만 넣음 */
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f6f7f9;
+}
+
+/* 로그인 박스 기본 틀 */
+.login-box {
+    width: 300px;
+    padding: 40px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+/* 제목 정렬 */
+.login-box h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2.2rem;
+}
+
+/* 인풋 그룹 간격 */
+.input-group {
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* 인풋 최소 스타일 */
+.input-group input {
+    padding: 12px;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+/* 버튼 기본 뼈대 */
+button {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: #4a7bd7;
+    color: white;
+    font-size: 1rem;
+}
+
+button:hover {
+    background-color: #3a6ac2;
+}
+
+a {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
