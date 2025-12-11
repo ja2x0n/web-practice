@@ -12,10 +12,10 @@ html과 css를 이용하여 만든 간단한 자기소개 프로필 카드 UI입
 ### 2. Login form
 html과 css를 이용하여 만든 로그인 폼 UI입니다.
 
-<img width="400" height="731" alt="image" src="https://github.com/user-attachments/assets/a6b8752b-d605-4083-b147-6b339c90b231" />
+<img width="400" height="200" alt="image" src="https://github.com/user-attachments/assets/a6b8752b-d605-4083-b147-6b339c90b231" />
 
 
 ### 3. Sign up form
 html과 css 이용하여 만든 회원가입 폼 UI입니다.
 
-<img width="1511" height="733" alt="image" src="https://github.com/user-attachments/assets/4f638cff-1de8-4e67-9ef7-a3644865b32e" />
+<img width="4000" height="200" alt="image" src="https://github.com/user-attachments/assets/4f638cff-1de8-4e67-9ef7-a3644865b32e" />
