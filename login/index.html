@@ -7,21 +7,34 @@
         <link rel="stylesheet" href="style.css" />
     </head>
     <body>
-        <div class="login-box">
-            <h2>Login</h2>
+        <div class="login-container">
+            <h1 class="login-title">Login</h1>
 
-            <form>
-                <div class="input-group">
-                    <input id="email" type="text" placeholder="Email" />
+            <form class="login-form">
+                <div class="input-box">
+                    <label for="email">Email</label>
+                    <input
+                        type="email"
+                        id="email"
+                        placeholder="Email"
+                        required
+                    />
                 </div>
 
-                <div class="input-group">
-                    <input id="pw" type="password" placeholder="password" />
+                <div class="input-box">
+                    <label for="password">Password</label>
+                    <input
+                        type="password"
+                        id="password"
+                        placeholder="Password"
+                        required
+                    />
                 </div>
 
-                <button type="submit">Login</button>
+                <button type="submit" class="login-btn">Login</button>
             </form>
-            <a href=".">Forgot password?</a>
+
+            <a href="#" class="forgot-link">Forgot password?</a>
         </div>
     </body>
 </html>
